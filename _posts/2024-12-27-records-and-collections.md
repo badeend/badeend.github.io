@@ -1,7 +1,3 @@
----
-tags: DDD, Value-Objects, C#, Badeend.ValueCollections
----
-
 # The missing piece of C# records: collections
 
 > This post showcases my [ValueCollections](https://badeend.github.io/ValueCollections/) C# library.
