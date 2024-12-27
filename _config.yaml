@@ -6,7 +6,7 @@ description: "Some short description of your blog can go here."
 github_username: "badeend"
 
 theme: "minima"
-
+markdown: GFM
 rss: rss
 
 # kramdown:
