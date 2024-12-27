@@ -1,0 +1,22 @@
+title: "Test"
+author: "Default Author Name"
+description: "Some short description of your blog can go here."
+
+#email: "example@mail.com"
+github_username: "badeend"
+
+theme: "minima"
+
+rss: rss
+
+# kramdown:
+#   syntax_highlighter_opts:
+#     disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
