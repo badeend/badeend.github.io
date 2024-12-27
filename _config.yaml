@@ -1,6 +1,6 @@
-title: "Test"
-author: "Default Author Name"
-description: "Some short description of your blog can go here."
+title: "A day in the life of a rubber ducky"
+author: "Dave Bakker"
+description: "Blogging because the cool kids do it too..."
 
 #email: "example@mail.com"
 github_username: "badeend"
@@ -8,11 +8,7 @@ github_username: "badeend"
 theme: "minima"
 markdown: GFM
 rss: rss
-
-# kramdown:
-#   syntax_highlighter_opts:
-#     disable: true
-    
+ 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
