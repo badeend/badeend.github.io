@@ -1,4 +1,4 @@
-# Mutable collections are hard: `List<T>.InsertRange`
+# Mutable collections are hard: List.InsertRange
 
 Quick question: given the following list:
 
