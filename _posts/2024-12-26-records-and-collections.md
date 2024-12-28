@@ -1,12 +1,12 @@
 # The missing piece of C# records: collections
 
-> This post showcases my [ValueCollections](https://badeend.github.io/ValueCollections/) C# library.
+> This article showcases my [ValueCollections](https://badeend.github.io/ValueCollections/) C# library.
 
 ---
 
-There is a general trend to refactor to immutability. The simplest reason for this is because "things that change" are harder to reason about than "things that don't change".
+There is a general trend to refactor to immutability. The simplest reason being: "things that change" are harder to reason about than "things that don't change".
 
-A fundamental building block in Domain-Driven Design (DDD) is the Value Object. Value objects are immutable data structures without identity. They are compared based on their contents (value equality), not on their memory location (reference equality).
+One specific pattern is the [Value Object](https://en.wikipedia.org/wiki/Value_object), popularized by Domain-Driven Design (DDD). Value objects are immutable data structures without identity. They're compared based on their contents (value equality), not on their memory location (reference equality).
 
 ### Current state of C#
 
