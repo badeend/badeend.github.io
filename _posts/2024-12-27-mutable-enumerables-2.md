@@ -58,7 +58,7 @@ The `_entries` array reference is stashed in a local variable at the beginning o
 ### Conclusion
 
 - To consumers: Just don't mutate a collection while enumerating it. You're gonna have a bad time :).
-- To authors: When designing mutable data structures, be careful with accepting arguments that may execute arbitrary code. Your consumers may (accidentally!) get more creative than you had anticipated. As we've seen, even seemingly fine code can be subtly broken by such misuse. In this case it was easy to spot due to the exception, but in [other cases]({% post_url 2024-12-27-mutable-enumerables-3 %}) we may not be so lucky and end up with silent data corruption.
+- To authors: When designing mutable data structures, be careful with accepting arguments that may execute arbitrary code. Your consumers may (accidentally!) get more creative than you had anticipated. As we've seen, even seemingly fine code can be subtly broken by such misuse. In this case it was easy to spot due to the exception, but in [other cases]({% post_url 2024-12-28-mutable-enumerables-3 %}) we may not be so lucky and end up with silent data corruption.
 
 ### How this impacts Badeend.ValueCollections
 
