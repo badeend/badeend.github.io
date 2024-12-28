@@ -1,4 +1,4 @@
-# A cursed combination of IEnumerable, mutability, and well-intended specializations
+# Mutable collections are hard: `List<T>.InsertRange`
 
 Quick question: given the following list:
 
